@@ -5,8 +5,7 @@
 }
 /*ESTRUCTURAS*/
 header{
-    color:rgb(255, 196, 0);
-    text-align: right;
+    color:rgb(255, 238, 0);
     background: rgba(255, 161, 1, 1.0);
     background: -webkit-linear-gradient(left, rgba(255, 161, 1, 1.0), rgba(251, 1, 1, 1.0));
     background: -moz-linear-gradient(left, rgba(255, 161, 1, 1.0), rgba(251, 1, 1, 1.0));
@@ -24,8 +23,8 @@ footer{
 }
 
 body{
-    background: rgb(148,7,7);
-    background: linear-gradient(90deg, rgba(148,7,7,1) 7%, rgba(35,7,148,1) 25%, rgba(59,7,148,1) 45%, rgba(82,7,148,1) 59%, rgba(45,7,148,1) 85%, rgba(255,0,0,1) 100%);
+    background-color: #ef5734;
+    background-image: linear-gradient(315deg, #ef5734 0%, #ffcc2f 74%);
     font-family: 'Mukta', sans-serif;
 }
 .listaMarcado{
@@ -58,7 +57,9 @@ body{
     width: 100px;
     height: 50px;
     margin: 5px;
-    list-style-type: none;
+    padding: 5px;
+    list-style-type:none;
+    text-align: center;
     border-radius: 3px;
     border: solid 1px black;
     list-style: none;
@@ -66,7 +67,9 @@ body{
 .cont{
     display: flex;
     flex-flow: row wrap;
-    justify-content:center
+    justify-content:center;
+    margin: 3px;
+    margin: 2px;
 }
 
 
@@ -79,8 +82,8 @@ body{
 .imgq{
     width: 1000px;
     height: 600px;
-    border: solid 2px black;
-    padding: 3px 2px;
+    margin: 15px;
+    padding: 10px;
 }
 
 .contenedor-flex{
@@ -92,7 +95,6 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-image: url(https://academia.nubimetrics.com/hubfs/mundo%20game.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -107,6 +109,48 @@ body{
             margin: 10px 5px 12px;
 }
 
+.marg{
+    margin: 5px;
+    padding: 5px;
+}
+.imp{
+    margin: 5px;
+    padding: 5px;
+    background-color: #f9ff60;
+    background-image: linear-gradient(315deg, #f9ff60 0%, #ffef77 74%);
+}
+.rojo{
+    color: rgb(170, 5, 5);
+}
+.env{
+    width: 100px;
+    height: 25px;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    border-radius: 5px;
+    margin-left: 125px;
+}
+.art{
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.lis{
+    list-style: none;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.artp{
+    margin: 10px 30px;
+    padding: 10px 10px;
+}
+.vid{
+    margin: 10px 75px;
+    padding: 10px 20px;
+}
+.titP{
+    margin: 10px 15px;
+    padding: 5px;
+}
 
 /*FUENTES*/
 .textoGrande{
@@ -170,7 +214,6 @@ body{
 
 
 
-
 /*cambios a contacto.html*/
 #unoc{
     /*background-color: rgb(37, 188, 214);*/
@@ -180,10 +223,7 @@ background: -moz-radial-gradient(bottom, #2BBCB5, #E20E49);
 background: radial-gradient(to top, #2BBCB5, #E20E49);
 }
 #dosc{
-    background-image: url(https://hardzone.es/app/uploads-hardzone.es/2020/03/Teclado-gaming-800x419.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
+
     color: rgb(238, 255, 0);
     font-size: 30px;
 
@@ -203,7 +243,14 @@ background: radial-gradient(to top, #2BBCB5, #E20E49);
         font-size: 28px;
         text-align: center;
     }
-
+    #dest{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        background-size: cover;
+        background-position: center;
+        margin-left: 20px;
+    }
     #desc{
         background-image: url(https://portinos-cloudfront.portinos.com/wp-content/uploads/2017/08/gamers-555x313.jpg);
         background-position:center;
@@ -216,23 +263,44 @@ background: radial-gradient(to top, #2BBCB5, #E20E49);
     }
 
     #dosc{
-        /*background-color: rgb(25, 172, 110);*/
-        background-image: url(https://hardzone.es/app/uploads-hardzone.es/2020/03/Teclado-gaming-800x419.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
         font-size: 20px;
-        color: rgb(255, 136, 0);
+        color: rgb(95, 9, 6);
     
     }
-
+    #unoc{
+        
+        background: #2BBCB5;
+        background: -webkit-radial-gradient(bottom, #2BBCB5, #E20E49);
+        background: -moz-radial-gradient(bottom, #2BBCB5, #E20E49);
+        background: radial-gradient(to top, #2BBCB5, #E20E49);
+        margin: 5px;
+        padding: 5px;
+    }
+    .contenedor-flex{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
     .imgq{
         border: solid 2px black;
+        margin: 5px 10px;
         padding: 3px 2px;
-        width: 300px;
+        width: 290px;
         height: 190px;
     }
-
+    .vid{
+        margin: 5px 10px;
+        padding: 3px 2px;
+        width: 290px;
+        height: 190px;
+    }
+    .img{
+        border: solid 2px black;
+        padding: 3px 2px;
+        width: 270px;
+        height: 200px;
+    }
     .padre-flex{
         display: flex;
         position: relative;
@@ -253,6 +321,7 @@ background: radial-gradient(to top, #2BBCB5, #E20E49);
         border: solid 1px black;
         list-style: none;
         text-align: center;
+        font-size: 13px;
     }
 
     .boton{
@@ -266,6 +335,14 @@ background: radial-gradient(to top, #2BBCB5, #E20E49);
         border: solid 1px black;
         list-style: none;
         text-align: center;
+    }
+    .margPh{
+        margin-left: 20px;
+        padding-left: 10px;
+    }
+
+    .col{
+        columns: 50%;
     }
     
 }
@@ -292,23 +369,30 @@ background: radial-gradient(to top, #2BBCB5, #E20E49);
     }
 
     #dosc{
-        /*background-color: rgb(25, 172, 110);*/
-        background-image: url(https://hardzone.es/app/uploads-hardzone.es/2020/03/Teclado-gaming-800x419.jpg);
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
         font-size: 30px;
-        color: rgb(136, 255, 0);
+        color: rgb(56, 2, 2);
     
     }
-
+    #unoc{
+        
+        background: #2BBCB5;
+        background: -webkit-radial-gradient(bottom, #2BBCB5, #E20E49);
+        background: -moz-radial-gradient(bottom, #2BBCB5, #E20E49);
+        background: radial-gradient(to top, #2BBCB5, #E20E49);
+        margin: 10px;
+        padding: 10px;
+    }
     .imgq{
         border: solid 2px black;
-        padding: 3px 2px;
+        margin: 20px 30px;
+        padding: 5px 5px;
         width: 650px;
         height: 300px;
     }
-
+    .vid{
+        margin: 15px 75px;
+        padding: 5px 10px;
+    }
     .padre-flex{
         display: flex;
         position: relative;
