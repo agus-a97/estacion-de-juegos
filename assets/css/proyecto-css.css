@@ -218,13 +218,15 @@ body{
 #unoc{
     /*background-color: rgb(37, 188, 214);*/
     background: #2BBCB5;
-background: -webkit-radial-gradient(bottom, #2BBCB5, #E20E49);
-background: -moz-radial-gradient(bottom, #2BBCB5, #E20E49);
-background: radial-gradient(to top, #2BBCB5, #E20E49);
+    background: -webkit-radial-gradient(bottom, #2BBCB5, #E20E49);
+    background: -moz-radial-gradient(bottom, #2BBCB5, #E20E49);
+    background: radial-gradient(to top, #2BBCB5, #E20E49);
+    margin: 5px 10px;
+    padding: 5px 3px;
 }
 #dosc{
 
-    color: rgb(238, 255, 0);
+    color: rgb(87, 0, 0);
     font-size: 30px;
 
 
